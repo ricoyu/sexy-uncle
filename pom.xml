@@ -9,6 +9,18 @@
     <name>Sexy Uncle</name>
     <url>http://maven.apache.org</url>
 
+    <modules>
+        <module>../commons-lang</module>
+        <module>../commons-spring</module>
+        <module>../loser-cache</module>
+        <module>../loser-json</module>
+        <module>../loser-orm</module>
+        <module>../loser-tests</module>
+        <module>../loser-validation</module>
+        <module>../loser-web</module>
+        <module>../loser-workbook</module>
+    </modules>
+
     <properties>
         <encoding>UTF-8</encoding>
         <jdk.version>1.8</jdk.version>
