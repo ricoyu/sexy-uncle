@@ -11,6 +11,7 @@
 
     <modules>
         <module>../commons-lang</module>
+        <module>../loser-codec</module>
         <module>../commons-spring</module>
         <module>../loser-cache</module>
         <module>../loser-json</module>
@@ -50,6 +51,7 @@
         <commons-fileupload.version>1.3.1</commons-fileupload.version>
         <commons-io.version>2.6</commons-io.version>
         <commons-beanutils.version>1.9.2</commons-beanutils.version>
+        <commons-codec.version>1.13</commons-codec.version>
         <httpclient.version>4.5.2</httpclient.version>
         <httpasyncclient.version>4.1.1</httpasyncclient.version>
 
@@ -247,6 +249,12 @@
                 <artifactId>commons-pool2</artifactId>
                 <version>${commons-pool2.version}</version>
             </dependency>
+            <dependency>
+                <groupId>commons-codec</groupId>
+                <artifactId>commons-codec</artifactId>
+                <version>${commons-codec.version}</version>
+            </dependency>
+            
             <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
