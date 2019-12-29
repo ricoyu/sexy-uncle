@@ -36,7 +36,7 @@
 
         <slf4j.version>1.7.21</slf4j.version>
         <log4j.version>1.2.17</log4j.version>
-        <logback-classic.version>1.2.3</logback-classic.version>
+        <logback.version>1.2.3</logback.version>
 
         <jackson.version>2.10.1</jackson.version>
         <jaxb-api.versioin>2.2.12</jaxb-api.versioin>
@@ -332,8 +332,13 @@
             </dependency>
             <dependency>
                 <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-core</artifactId>
+                <version>${logback.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
                 <artifactId>logback-classic</artifactId>
-                <version>${logback-classic.version}</version>
+                <version>${logback.version}</version>
             </dependency>
 
             <dependency>
@@ -350,11 +355,6 @@
                 <groupId>commons-beanutils</groupId>
                 <artifactId>commons-beanutils</artifactId>
                 <version>${commons-beanutils.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>commons-codec</groupId>
-                <artifactId>commons-codec</artifactId>
-                <version>1.10</version>
             </dependency>
             <dependency>
                 <groupId>commons-fileupload</groupId>
