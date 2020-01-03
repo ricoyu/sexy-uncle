@@ -5,7 +5,7 @@
     <groupId>com.loserico</groupId>
     <artifactId>sexy-uncle</artifactId>
     <packaging>pom</packaging>
-    <version>4.6.4</version>
+    <version>4.6.5</version>
     <name>Sexy Uncle</name>
     <url>http://maven.apache.org</url>
 
@@ -69,7 +69,7 @@
 
         <el.version>2.2</el.version>
         <jstl.version>1.2</jstl.version>
-        <servlet.version>3.1.0</servlet.version>
+        <servlet.version>4.0.1</servlet.version>
         <javax.inject.version>1</javax.inject.version>
         <javax.annotation-api.version>1.2</javax.annotation-api.version>
 
