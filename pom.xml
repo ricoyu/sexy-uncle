@@ -5,7 +5,7 @@
     <groupId>com.loserico</groupId>
     <artifactId>sexy-uncle</artifactId>
     <packaging>pom</packaging>
-    <version>4.6.5</version>
+    <version>4.6.6</version>
     <name>Sexy Uncle</name>
     <url>http://maven.apache.org</url>
 
@@ -16,6 +16,7 @@
         <module>../loser-cache</module>
         <module>../loser-json</module>
         <module>../loser-orm</module>
+        <module>../loser-sharding</module>
         <module>../loser-tests</module>
         <module>../loser-validation</module>
         <module>../loser-web</module>
@@ -66,6 +67,7 @@
 
         <aspectj.version>1.8.7</aspectj.version>
         <cglib.version>3.2.1</cglib.version>
+        <reflectasm.version>1.11.9</reflectasm.version>
 
         <el.version>2.2</el.version>
         <jstl.version>1.2</jstl.version>
@@ -256,6 +258,11 @@
                 <groupId>commons-codec</groupId>
                 <artifactId>commons-codec</artifactId>
                 <version>${commons-codec.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-beanutils</groupId>
+                <artifactId>commons-beanutils</artifactId>
+                <version>1.9.4</version>
             </dependency>
             
             <dependency>
@@ -542,7 +549,7 @@
             <dependency>
                 <groupId>org.apache.zookeeper</groupId>
                 <artifactId>zookeeper</artifactId>
-                <version>${zookeeper.version}</version>
+                <version>3.5.5</version>
                 <exclusions>
                     <exclusion>
                         <groupId>io.netty</groupId>
@@ -565,7 +572,7 @@
             <dependency>
                 <groupId>com.101tec</groupId>
                 <artifactId>zkclient</artifactId>
-                <version>${zkclient.version}</version>
+                <version>0.11</version>
             </dependency>
 
             <dependency>
