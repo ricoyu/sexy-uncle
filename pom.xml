@@ -41,6 +41,7 @@
         <logback.version>1.2.3</logback.version>
 
         <jackson.version>2.10.3</jackson.version>
+        <!--<jackson.version>2.11.0</jackson.version>-->
         <jaxb-api.versioin>2.2.12</jaxb-api.versioin>
         <json.version>20170516</json.version>
         <jsonpath.version>2.4.0</jsonpath.version>
